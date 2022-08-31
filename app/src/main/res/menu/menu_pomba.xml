@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/alterarFoto"
+                    android:icon="@drawable/ic_baseline_add_a_photo"
+                    android:title="Foto" />
+                <item
+                    android:id="@+id/galeria"
+                    android:icon="@drawable/ic_baseline_photo"
+                    android:title="Galeria" />
+
+                <item
+                    android:id="@+id/config"
+                    android:icon="@drawable/ic_baseline_settings"
+
+                    android:title="Foto" />
+
+
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Comunicação">
+            <menu>
+                <item
+                    android:id="@+id/compartilhar"
+                    android:icon="@drawable/ic_baseline_share"
+                    android:title="Compartilhar" />
+                <item
+                    android:id="@+id/enviar"
+                    android:icon="@drawable/ic_baseline_send"
+                    android:title="Enviar" />
+            </menu>
+        </item>
+    </group>
+</menu>
